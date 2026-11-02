@@ -1,0 +1,23 @@
+{
+  "evaluation_dataset": "EthnoTrace Benchmark Corpus v1.0",
+  "sample_size": {
+    "entity_extraction_sentences": 5,
+    "botanical_taxa_queries": 10,
+    "evidence_classification_texts": 6,
+    "retrieval_evaluation_queries": 4
+  },
+  "measurements": {
+    "entity_extraction_precision": 0.8,
+    "entity_extraction_recall": 1.0,
+    "entity_extraction_f1": 0.889,
+    "botanical_name_resolution_top1_accuracy": 1.0,
+    "botanical_name_resolution_top3_accuracy": 1.0,
+    "ambiguity_detection_performance": 1.0,
+    "relation_extraction_f1": 0.895,
+    "evidence_classification_macro_f1": 0.833,
+    "retrieval_recall_at_k": 1.0,
+    "mean_reciprocal_rank_mrr": 1.0,
+    "citation_correctness": 1.0,
+    "answer_faithfulness": 0.985
+  }
+}
